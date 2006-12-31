@@ -1,0 +1,99 @@
+perl-Gnome2-Rsvg
+------------------------------------------
+Perl bindings for librsvg-2 (still under development).
+
+Runtime requirements:
+  cygwin-1.5.23-2
+  gdk-pixbuf2-2.10.6-1
+  glib2-2.12.4-1
+  librsvg2-2.16.1-1
+  perl-5.8.7-5
+  perl-Cairo-1.02-1
+  perl-Glib-1.141-1
+  perl-Gtk2-1.141-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.23-2
+  binutils-20060817-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  perl-5.8.7-5
+  perl-ExtUtils-Depends-0.205-1
+  perl-ExtUtils-PkgConfig-1.07-1
+
+Canonical homepage:
+  http://gtk2-perl.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/gtk2-perl/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gnome2-Rsvg-0.10-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gnome2-Rsvg-0.10-1.cygport all
+
+This will create:
+  /usr/src/perl-Gnome2-Rsvg-0.10-1-src.tar.bz2
+  /usr/src/perl-Gnome2-Rsvg-0.10-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Gnome2-Rsvg.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Rsvg.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Rsvg/Handle.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Rsvg/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Rsvg/Install/doctypes
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Rsvg/Install/rsvg.typemap
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Rsvg/Install/rsvg2perl-autogen.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Rsvg/Install/rsvg2perl-version.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Rsvg/Install/rsvg2perl.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Rsvg/Install/rsvg2perl.typemap
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Rsvg/index.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Rsvg/main.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Rsvg/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Rsvg/Rsvg.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Rsvg/Rsvg.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Rsvg/libRsvg.dll.a
+  /usr/share/doc/Cygwin/perl-Gnome2-Rsvg-0.10.README
+  /usr/share/doc/perl-Gnome2-Rsvg-0.10/ChangeLog
+  /usr/share/doc/perl-Gnome2-Rsvg-0.10/LICENSE
+  /usr/share/doc/perl-Gnome2-Rsvg-0.10/NEWS
+  /usr/share/doc/perl-Gnome2-Rsvg-0.10/README
+  /usr/share/man/man3/Gnome2.Rsvg.3pm.gz
+  /usr/share/man/man3/Gnome2.Rsvg.Handle.3pm.gz
+  /usr/share/man/man3/Gnome2.Rsvg.index.3pm.gz
+  /usr/share/man/man3/Gnome2.Rsvg.main.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Gnome2-Rsvg.pod
+
+--------------------
+
+Port Notes:
+
+----- version 0.10-1 -----
+Version bump.
+
+----- version 0.06-1 -----
+Version bump.
+
+----- version 0.05-1 -----
+New version for librsvg-2.12.
+
+----- version 0.04-2 -----
+Rebuilt for perl-5.8.7, with --enable-auto-image-base.
+
+----- version 0.04-1 -----
+Version bump, built against perl-5.8.6.
+
+----- version 0.03-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
