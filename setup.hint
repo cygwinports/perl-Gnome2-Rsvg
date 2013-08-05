@@ -1,4 +1,0 @@
-category: Perl Gnome
-requires: libgdk_pixbuf2.0_0 libglib2.0_0 librsvg2_2 libssp0 perl perl-Cairo perl-Glib perl-Gtk2
-sdesc: "Perl bindings for librsvg-2"
-ldesc: "Perl bindings for librsvg-2"
