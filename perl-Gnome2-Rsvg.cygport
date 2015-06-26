@@ -2,7 +2,7 @@ inherit gtk2-perl
 
 NAME="perl-Gnome2-Rsvg"
 VERSION=0.11
-RELEASE=1
+RELEASE=2
 CATEGORY="Perl"
 SUMMARY="Perl bindings for librsvg-2"
 DESCRIPTION="Perl bindings for librsvg-2"
